@@ -1,0 +1,9 @@
+host_project_id    = "your-host-project-id"
+service_project_id = "your-service-project-id"
+region             = "us-central1"
+zone               = "us-central1-a"
+
+# Optional: principals who should be able to place additional resources on the subnet.
+# network_user_members = [
+#   "user:you@example.com",
+# ]
