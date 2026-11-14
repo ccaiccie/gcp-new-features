@@ -1,0 +1,8 @@
+project_id           = "YOUR_PROJECT_ID"
+region               = "us-central1"
+name_prefix          = "swp-agent-lab"
+subnet_cidr          = "10.40.0.0/20"
+proxy_only_cidr      = "192.168.0.0/23"
+certificate_dns_name = "swp.example.internal"
+allow_host           = "example.com"
+include_registry     = false

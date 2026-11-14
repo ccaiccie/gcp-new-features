@@ -1,0 +1,4 @@
+project_id     = "YOUR_PROJECT_ID"
+region         = "us-central1"
+name_prefix    = "csm-lab"
+create_cluster = true

@@ -1,0 +1,7 @@
+project_id      = "YOUR_PROJECT_ID"
+region          = "us-east4"
+name_prefix     = "sni-ipv6-lab"
+subnet_cidr     = "10.30.0.0/24"
+proxy_only_cidr = "10.30.128.0/23"
+app_sni_host    = "app.example.com"
+api_sni_host    = "api.example.com"

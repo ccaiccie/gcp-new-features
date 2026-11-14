@@ -1,0 +1,7 @@
+project_id               = "YOUR_PROJECT_ID"
+region                   = "us-east4"
+name_prefix              = "lumen-lab"
+subnet_cidr              = "10.20.0.0/24"
+cloud_router_asn         = 64512
+edge_availability_domain = "AVAILABILITY_DOMAIN_1"
+mtu                      = 1500
