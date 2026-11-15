@@ -1,0 +1,5 @@
+host_project_id    = "your-host-project-id"
+service_project_id = "your-service-project-id"
+region             = "us-central1"
+# psc_google_apis_ip must not overlap attachment_subnet_cidr
+# psc_google_apis_ip = "172.16.20.20"
