@@ -13,3 +13,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-14-gke-cloud-service-mesh](./2026-11-14-gke-cloud-service-mesh) | Cloud Service Mesh on GKE | [YouTube](https://youtu.be/9rCOWzwU5PQ) |
 | [2026-11-14-shared-vpc-host-service](./2026-11-14-shared-vpc-host-service) | Shared VPC: host project versus service project | |
 | [2026-11-14-swp-agent-gateway](./2026-11-14-swp-agent-gateway) | Secure Web Proxy as an Agent Gateway (preview) | [YouTube](https://youtu.be/hUKBgFKsrkQ) |
+| [2026-11-15-network-connectivity-center](./2026-11-15-network-connectivity-center) | Network Connectivity Center: hubs, spokes and topologies | |
