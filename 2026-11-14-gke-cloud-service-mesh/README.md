@@ -1,6 +1,6 @@
 # Cloud Service Mesh on GKE
 
-Terraform practice lab for this video: https://youtu.be/tG2J0ZTC1bs
+Terraform practice lab for this video: https://youtu.be/9rCOWzwU5PQ
 
 ## Goals
 

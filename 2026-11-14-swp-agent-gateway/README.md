@@ -1,6 +1,6 @@
 # Secure Web Proxy as an Agent Gateway
 
-Terraform practice lab for this video: https://youtu.be/4lOzDCCX5J0
+Terraform practice lab for this video: https://youtu.be/hUKBgFKsrkQ
 
 ## Goals
 
