@@ -17,3 +17,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-15-grpc-network-security](./2026-11-15-grpc-network-security) | gRPC for network and security engineers | |
 | [2026-11-15-agent-gateway-private-mcp](./2026-11-15-agent-gateway-private-mcp) | Private MCP connectivity: Gemini Enterprise, Agent Gateway and PSC | |
 | [2026-11-15-hierarchical-firewall-policies](./2026-11-15-hierarchical-firewall-policies) | Hierarchical firewall policies: org and folder enforcement | |
+| [2026-11-16-cloud-nat-static-ips-ports](./2026-11-16-cloud-nat-static-ips-ports) | Cloud NAT: static IPs, port allocation, rules and logs | Upload pending |

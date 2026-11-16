@@ -1,0 +1,10 @@
+project_id                  = "your-project-id"
+region                      = "us-central1"
+zone                        = "us-central1-a"
+name_prefix                 = "natlab"
+min_ports_per_vm            = 64
+max_ports_per_vm            = 1024
+tcp_time_wait_timeout_sec   = 30
+nat_log_filter              = "ERRORS_ONLY"
+partner_destination_cidr_ip = "203.0.113.10"
+create_vm                   = true
