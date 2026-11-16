@@ -1,0 +1,7 @@
+project_id                   = "your-gcp-project-id"
+region                       = "us-central1"
+name_prefix                  = "armor-edge"
+denied_asn                   = 64512
+denied_path_prefix           = "/lab-blocked"
+# Requires Cloud Armor Enterprise in this project:
+enable_threat_intelligence   = false
