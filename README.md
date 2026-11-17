@@ -20,3 +20,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-16-cloud-nat-static-ips-ports](./2026-11-16-cloud-nat-static-ips-ports) | Cloud NAT: static IPs, port allocation, rules and logs | Upload pending |
 | [2026-11-16-cloud-armor-cdn-edge](./2026-11-16-cloud-armor-cdn-edge) | Cloud Armor at the CDN edge: ASN, NTI and HTTP filters (preview) | Upload pending |
 | [2026-11-17-connectivity-tests](./2026-11-17-connectivity-tests) | Connectivity Tests: trace a packet through your Google Cloud network | Upload pending |
+| [2026-11-17-pq-tls-load-balancing](./2026-11-17-pq-tls-load-balancing) | Cloud Load Balancing: post-quantum TLS is on by default (Phase 2) | Upload pending |
