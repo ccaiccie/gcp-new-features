@@ -19,3 +19,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-15-hierarchical-firewall-policies](./2026-11-15-hierarchical-firewall-policies) | Hierarchical firewall policies: org and folder enforcement | |
 | [2026-11-16-cloud-nat-static-ips-ports](./2026-11-16-cloud-nat-static-ips-ports) | Cloud NAT: static IPs, port allocation, rules and logs | Upload pending |
 | [2026-11-16-cloud-armor-cdn-edge](./2026-11-16-cloud-armor-cdn-edge) | Cloud Armor at the CDN edge: ASN, NTI and HTTP filters (preview) | Upload pending |
+| [2026-11-17-connectivity-tests](./2026-11-17-connectivity-tests) | Connectivity Tests: trace a packet through your Google Cloud network | Upload pending |

@@ -1,0 +1,9 @@
+project_id    = "your-project-id"
+region        = "us-central1"
+zone          = "us-central1-a"
+name_prefix   = "ctlab"
+subnet_a_cidr = "10.90.1.0/24"
+subnet_b_cidr = "10.90.2.0/24"
+allowed_port  = 8080
+blocked_port  = 5432
+machine_type  = "e2-micro"
