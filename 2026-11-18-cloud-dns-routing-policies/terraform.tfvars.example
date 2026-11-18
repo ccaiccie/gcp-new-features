@@ -1,0 +1,15 @@
+project_id                  = "my-lab-project"
+region                      = "us-east4"
+name_prefix                 = "dnsrp"
+dns_domain                  = "dnslab.example.com."
+ttl                         = 30
+canary_current_ip           = "203.0.113.10"
+canary_new_ip               = "203.0.113.20"
+canary_current_weight       = 900
+canary_new_weight           = 100
+europe_endpoint_ip          = "198.51.100.10" # a reachable endpoint in Europe
+us_endpoint_ip              = "198.51.100.20" # a reachable endpoint in the US
+health_check_port           = 80
+health_check_source_regions = ["us-east4", "europe-west3", "us-central1"]
+enable_geo_fencing          = false
+trickle_ratio               = 0.1
