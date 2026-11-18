@@ -1,0 +1,11 @@
+project_id                = "my-lab-project"
+org_id                    = "123456789012"
+region                    = "us-east4"
+name_prefix               = "acm_lab"
+existing_access_policy_id = "" # leave empty to create a scoped policy for the lab project
+corp_cidrs                = ["203.0.113.0/24", "2001:db8:100::/48"] # replace with your office egress ranges
+allowed_regions           = ["US", "CA"]
+business_hours_tz         = "America/Los_Angeles"
+enable_device_level       = false
+create_test_bucket        = true
+ingress_identities        = [] # e.g. ["user:you@example.com"]
