@@ -24,4 +24,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-18-cloud-dns-routing-policies](./2026-11-18-cloud-dns-routing-policies) | Cloud DNS routing policies: weighted, geolocation and failover with health checks | [YouTube](https://youtu.be/FjYxSCbBCyU) |
 | [2026-11-18-cross-cloud-interconnect-azure](./2026-11-18-cross-cloud-interconnect-azure) | Partner Cross-Cloud Interconnect for Microsoft Azure (preview) | [YouTube](https://youtu.be/9O2Am758ytg) |
 | [2026-11-18-access-context-manager](./2026-11-18-access-context-manager) | Access Context Manager: access levels for IAP and VPC Service Controls | Upload pending |
-| [2026-11-18-apigee](./2026-11-18-apigee) | Apigee API management: proxies, environment groups, VPC peering and PSC | Upload pending |
+| [2026-11-18-apigee](./2026-11-18-apigee) | Apigee API management: proxies, environment groups, VPC peering and PSC | [YouTube](https://youtu.be/DdyAT7te58E) |
