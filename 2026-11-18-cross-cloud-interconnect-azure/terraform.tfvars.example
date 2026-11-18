@@ -1,0 +1,11 @@
+project_id          = "my-lab-project"
+region              = "us-east4" # us-east4, us-west2 or europe-west3 during the Azure preview
+name_prefix         = "pcci-az"
+subnet_cidr         = "10.20.0.0/24"
+azure_vnet_cidr     = "10.30.0.0/16"
+connection_mode     = "peering" # or "ncc"
+create_transport    = false     # set true once the two values below are filled in
+remote_profile_name = ""        # from: gcloud network-connectivity transports remote-profiles list --region us-east4
+remote_account_id   = ""        # your Azure account ID
+bandwidth           = "BPS_1G"
+advertised_routes   = []

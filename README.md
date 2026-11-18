@@ -22,3 +22,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-17-connectivity-tests](./2026-11-17-connectivity-tests) | Connectivity Tests: trace a packet through your Google Cloud network | Upload pending |
 | [2026-11-17-pq-tls-load-balancing](./2026-11-17-pq-tls-load-balancing) | Cloud Load Balancing: post-quantum TLS is on by default (Phase 2) | Upload pending |
 | [2026-11-18-cloud-dns-routing-policies](./2026-11-18-cloud-dns-routing-policies) | Cloud DNS routing policies: weighted, geolocation and failover with health checks | Upload pending |
+| [2026-11-18-cross-cloud-interconnect-azure](./2026-11-18-cross-cloud-interconnect-azure) | Partner Cross-Cloud Interconnect for Microsoft Azure (preview) | Upload pending |
