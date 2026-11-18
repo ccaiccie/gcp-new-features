@@ -1,0 +1,14 @@
+project_id       = "my-apigee-lab-project"
+region           = "us-central1"
+analytics_region = "us-central1"
+name_prefix      = "apigee-lab"
+billing_type     = "EVALUATION" # free for 60 days, then Google deletes the org
+networking_mode  = "psc"        # or "peering" (reserves a range and peers your VPC with Apigee)
+subnet_cidr      = "10.10.0.0/24"
+environments     = ["dev", "prod"] # eval orgs allow two environments
+hostname         = ""              # empty = <lb-ip>.nip.io (testing only)
+
+create_northbound_lb = true
+
+# Southbound (optional): a PSC service attachment you published in front of a backend
+backend_service_attachment = ""
