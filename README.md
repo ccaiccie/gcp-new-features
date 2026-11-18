@@ -21,5 +21,5 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-16-cloud-armor-cdn-edge](./2026-11-16-cloud-armor-cdn-edge) | Cloud Armor at the CDN edge: ASN, NTI and HTTP filters (preview) | Upload pending |
 | [2026-11-17-connectivity-tests](./2026-11-17-connectivity-tests) | Connectivity Tests: trace a packet through your Google Cloud network | Upload pending |
 | [2026-11-17-pq-tls-load-balancing](./2026-11-17-pq-tls-load-balancing) | Cloud Load Balancing: post-quantum TLS is on by default (Phase 2) | Upload pending |
-| [2026-11-18-cloud-dns-routing-policies](./2026-11-18-cloud-dns-routing-policies) | Cloud DNS routing policies: weighted, geolocation and failover with health checks | Upload pending |
-| [2026-11-18-cross-cloud-interconnect-azure](./2026-11-18-cross-cloud-interconnect-azure) | Partner Cross-Cloud Interconnect for Microsoft Azure (preview) | Upload pending |
+| [2026-11-18-cloud-dns-routing-policies](./2026-11-18-cloud-dns-routing-policies) | Cloud DNS routing policies: weighted, geolocation and failover with health checks | [YouTube](https://youtu.be/FjYxSCbBCyU) |
+| [2026-11-18-cross-cloud-interconnect-azure](./2026-11-18-cross-cloud-interconnect-azure) | Partner Cross-Cloud Interconnect for Microsoft Azure (preview) | [YouTube](https://youtu.be/9O2Am758ytg) |
