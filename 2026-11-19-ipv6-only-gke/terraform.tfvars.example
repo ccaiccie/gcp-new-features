@@ -1,0 +1,16 @@
+project_id       = "my-lab-project"
+region           = "us-central1"
+cluster_location = "us-central1-a"
+
+# Single-stack IPv6 needs GKE 1.37.1-gke.3020000 or later (Preview).
+cluster_version = "1.37.1-gke.3020000"
+machine_type    = "e2-standard-2"
+num_nodes       = 1
+
+# false = Terraform builds only the network; run `terraform output -raw cluster_create_command` yourself.
+create_cluster = true
+
+nat_log_filter = "ALL"
+
+# Required NAT44 field on the gateway; nothing is IPv4 in this VPC.
+nat44_option = "LIST_OF_SUBNETWORKS"

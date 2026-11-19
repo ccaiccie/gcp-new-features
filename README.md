@@ -26,3 +26,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-18-access-context-manager](./2026-11-18-access-context-manager) | Access Context Manager: access levels for IAP and VPC Service Controls | [YouTube](https://youtu.be/WQh3ebMoIVM) |
 | [2026-11-18-apigee](./2026-11-18-apigee) | Apigee API management: proxies, environment groups, VPC peering and PSC | [YouTube](https://youtu.be/DdyAT7te58E) |
 | [2026-11-19-cloud-run-direct-vpc-egress](./2026-11-19-cloud-run-direct-vpc-egress) | Cloud Run networking: Direct VPC egress versus Serverless VPC Access connectors | Upload pending |
+| [2026-11-19-ipv6-only-gke](./2026-11-19-ipv6-only-gke) | Single-stack IPv6 on GKE for AI/ML workloads: DNS64 and NAT64 (preview) | Upload pending |
