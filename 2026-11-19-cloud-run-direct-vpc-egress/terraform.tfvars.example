@@ -1,0 +1,10 @@
+project_id = "my-lab-project"
+region     = "us-central1"
+zone       = "us-central1-a"
+
+# ALL_TRAFFIC sends internet traffic through your VPC and Cloud NAT (static IP).
+# Try PRIVATE_RANGES_ONLY and compare the address the echo service reports.
+vpc_egress = "ALL_TRAFFIC"
+
+# Set to true to also build a Serverless VPC Access connector and a second job (extra VM cost).
+create_connector = false
