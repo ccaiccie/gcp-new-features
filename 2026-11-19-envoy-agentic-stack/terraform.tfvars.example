@@ -1,0 +1,8 @@
+project_id = "my-lab-project"
+region     = "us-central1"
+zone       = "us-central1-a"
+
+# Cloud Armor request-count throttle (not token-aware). 10 requests per 60 seconds
+# makes it easy to see an HTTP 429 with a short curl loop.
+rate_limit_count        = 10
+rate_limit_interval_sec = 60
