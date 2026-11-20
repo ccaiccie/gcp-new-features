@@ -1,0 +1,18 @@
+# Apply ONLY after the cluster shows ADVANCED_DATAPATH. Remove NetworkPolicies before migrating:
+# Dataplane V2 always enforces them, so a policy that was ignored on V1 suddenly takes effect.
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: web-allow-frontend
+  namespace: dpv2-lab
+spec:
+  podSelector:
+    matchLabels: {app: web}
+  policyTypes: ["Ingress"]
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels: {role: frontend}
+    ports:
+    - protocol: TCP
+      port: 8080

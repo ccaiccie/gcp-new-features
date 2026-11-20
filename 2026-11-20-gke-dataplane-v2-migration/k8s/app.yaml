@@ -1,0 +1,60 @@
+# Two-tier test app: a web Deployment behind a ClusterIP Service, and two client Pods.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dpv2-lab
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  namespace: dpv2-lab
+spec:
+  replicas: 3
+  selector:
+    matchLabels: {app: web}
+  template:
+    metadata:
+      labels: {app: web}
+    spec:
+      containers:
+      - name: web
+        image: registry.k8s.io/e2e-test-images/agnhost:2.53
+        args: ["netexec", "--http-port=8080"]
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web
+  namespace: dpv2-lab
+spec:
+  selector: {app: web}
+  ports:
+  - port: 80
+    targetPort: 8080
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: client-allowed
+  namespace: dpv2-lab
+  labels: {role: frontend}
+spec:
+  containers:
+  - name: c
+    image: registry.k8s.io/e2e-test-images/agnhost:2.53
+    command: ["sleep", "infinity"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: client-denied
+  namespace: dpv2-lab
+  labels: {role: other}
+spec:
+  containers:
+  - name: c
+    image: registry.k8s.io/e2e-test-images/agnhost:2.53
+    command: ["sleep", "infinity"]

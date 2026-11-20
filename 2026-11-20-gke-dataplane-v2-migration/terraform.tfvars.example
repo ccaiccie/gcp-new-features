@@ -1,0 +1,15 @@
+project_id       = "my-lab-project"
+region           = "us-central1"
+cluster_location = "us-central1-a"
+
+# Migration needs control plane 1.35.3-gke.1155000+ and node pools 1.35.1-gke.1516000+.
+release_channel = "REGULAR"
+
+node_count   = 2
+machine_type = "e2-standard-2"
+
+# /21 = 8 node-sized /24s: 2 nodes plus surge headroom for the migration.
+pods_cidr = "10.20.0.0/21"
+
+# true = migration only progresses inside a weekend window (try it to watch it "stall").
+enable_maintenance_window = false
