@@ -28,4 +28,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-19-cloud-run-direct-vpc-egress](./2026-11-19-cloud-run-direct-vpc-egress) | Cloud Run networking: Direct VPC egress versus Serverless VPC Access connectors | Upload pending |
 | [2026-11-19-ipv6-only-gke](./2026-11-19-ipv6-only-gke) | Single-stack IPv6 on GKE for AI/ML workloads: DNS64 and NAT64 (preview) | [YouTube](https://youtu.be/WWFMvG_CYtc) |
 | [2026-11-19-envoy-agentic-stack](./2026-11-19-envoy-agentic-stack) | The Envoy agentic stack: routing models, tokens and MCP | Upload pending |
-| [2026-11-20-gke-dataplane-v2-migration](./2026-11-20-gke-dataplane-v2-migration) | In-place migration to GKE Dataplane V2: preflight, rollout and rollback (preview) | Upload pending |
+| [2026-11-20-gke-dataplane-v2-migration](./2026-11-20-gke-dataplane-v2-migration) | In-place migration to GKE Dataplane V2: preflight, rollout and rollback (preview) | [YouTube](https://youtu.be/ErmFXqzdoqw) |
