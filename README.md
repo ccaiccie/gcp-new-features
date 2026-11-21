@@ -30,3 +30,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-19-envoy-agentic-stack](./2026-11-19-envoy-agentic-stack) | The Envoy agentic stack: routing models, tokens and MCP | Upload pending |
 | [2026-11-20-gke-dataplane-v2-migration](./2026-11-20-gke-dataplane-v2-migration) | In-place migration to GKE Dataplane V2: preflight, rollout and rollback (preview) | [YouTube](https://youtu.be/ErmFXqzdoqw) |
 | [2026-11-21-lb-frontend-mtls](./2026-11-21-lb-frontend-mtls) | Frontend mTLS on Application Load Balancers: trust configs, validation modes and headers | Upload pending |
+| [2026-11-21-unified-access-policies](./2026-11-21-unified-access-policies) | Unified Access Policies in Cloud IAM: allow and deny rules in one reusable policy (preview) | Upload pending |

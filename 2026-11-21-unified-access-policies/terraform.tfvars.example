@@ -1,0 +1,3 @@
+project_id    = "your-test-project-id"
+tester_member = "user:you@example.com"
+# region      = "us-central1"
