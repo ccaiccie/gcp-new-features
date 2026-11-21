@@ -2,6 +2,8 @@
 
 Practice lab for the **Unified Access Policies in Cloud IAM** lesson (Network Technician, GCP new features, November 21, 2026). Unified Access Policies were announced in Preview on November 20, 2026.
 
+Video: [Unified Access Policies in Cloud IAM on YouTube](https://youtu.be/xP9zX0clulU)
+
 A Unified Access Policy holds **allow and deny rules in one policy**, and is applied to resources through separate, reusable **policy bindings**. This lab builds one UAP in a test project that:
 
 1. **Allows** a network-automation service account to view network configuration (`role:roles/compute.networkViewer`), granted only by the UAP.
