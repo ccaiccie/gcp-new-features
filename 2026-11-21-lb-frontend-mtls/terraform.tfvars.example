@@ -1,0 +1,13 @@
+project_id = "your-project-id"
+# region   = "us-central1"
+# zone     = "us-central1-a"
+
+# Experiment 1 (default): strict
+client_validation_mode = "REJECT_INVALID"
+
+# Experiment 2: pass everything to the backend and let it decide from the headers
+# client_validation_mode = "ALLOW_INVALID_OR_MISSING_CLIENT_CERT"
+
+# Experiment 3: strict, except certificates without an EKU extension
+# client_validation_mode        = "ALLOW_VALIDATION_RELAXATIONS"
+# client_validation_relaxations = ["ALLOW_MISSING_EKU"]
