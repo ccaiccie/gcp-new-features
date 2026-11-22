@@ -31,4 +31,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-20-gke-dataplane-v2-migration](./2026-11-20-gke-dataplane-v2-migration) | In-place migration to GKE Dataplane V2: preflight, rollout and rollback (preview) | [YouTube](https://youtu.be/ErmFXqzdoqw) |
 | [2026-11-21-lb-frontend-mtls](./2026-11-21-lb-frontend-mtls) | Frontend mTLS on Application Load Balancers: trust configs, validation modes and headers | Upload pending |
 | [2026-11-21-unified-access-policies](./2026-11-21-unified-access-policies) | Unified Access Policies in Cloud IAM: allow and deny rules in one reusable policy (preview) | [YouTube](https://youtu.be/xP9zX0clulU) |
-| [2026-11-22-ngfw-advanced-malware-sandbox](./2026-11-22-ngfw-advanced-malware-sandbox) | Cloud NGFW Advanced malware sandbox (WildFire): inline ML, behavioral sandboxing, limits and a Terraform lab (GA) | Upload pending |
+| [2026-11-22-ngfw-advanced-malware-sandbox](./2026-11-22-ngfw-advanced-malware-sandbox) | Cloud NGFW Advanced malware sandbox (WildFire): inline ML, behavioral sandboxing, limits and a Terraform lab (GA) | [YouTube](https://youtu.be/OnZ6Awdec64) |
