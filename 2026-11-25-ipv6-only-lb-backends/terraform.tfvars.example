@@ -1,0 +1,9 @@
+project_id = "your-gcp-project-id"
+region     = "us-central1"
+zone       = "us-central1-a"
+
+# Populate with Google Cloud's documented IPv6 health-check probe ranges
+# from: https://docs.cloud.google.com/load-balancing/docs/health-check-concepts#ip-ranges
+health_check_ipv6_source_ranges = [
+  # "<documented-ipv6-health-check-range-1>",
+]
