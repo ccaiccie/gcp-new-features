@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and set your Google Cloud project ID.
+# terraform.tfvars is excluded by .gitignore.
+
+project_id        = "your-gcp-project-id"
+region            = "us-central1"
+zone              = "us-central1-a"
+vpc_name          = "pga-psc-lab-vpc"
+psc_endpoint_name = "labpsc"
+psc_endpoint_ip   = "10.50.250.5"
+psc_api_bundle    = "all-apis" # or "vpc-sc"

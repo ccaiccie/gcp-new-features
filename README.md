@@ -34,3 +34,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-22-ngfw-advanced-malware-sandbox](./2026-11-22-ngfw-advanced-malware-sandbox) | Cloud NGFW Advanced malware sandbox (WildFire): inline ML, behavioral sandboxing, limits and a Terraform lab (GA) | [YouTube](https://youtu.be/OnZ6Awdec64) |
 | [2026-11-25-ipv6-only-lb-backends](./2026-11-25-ipv6-only-lb-backends) | Cloud Load Balancing: IPv6-only backends for Application and proxy Network Load Balancers (preview) | [YouTube](https://youtu.be/dS1X0TqmDWQ) |
 | [2026-11-25-iap-tcp-forwarding](./2026-11-25-iap-tcp-forwarding) | Google Cloud Identity-Aware Proxy and IAP TCP forwarding | Upload pending |
+| [2026-11-25-private-google-access-vs-psc](./2026-11-25-private-google-access-vs-psc) | Private Google Access vs Private Service Connect for Google APIs | Upload pending |
