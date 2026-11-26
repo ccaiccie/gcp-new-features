@@ -1,0 +1,13 @@
+name: urlf-lab-urlf-profile
+type: url-filtering
+urlFilteringProfile:
+  urlFilters:
+    - filteringAction: DENY
+      priority: 500
+      urls:
+        - "*example.org"
+    - filteringAction: ALLOW
+      priority: 1000
+      urls:
+        - "*example.com"
+    # Cloud NGFW automatically appends the implicit DENY '*' filter at priority 2147483647.
