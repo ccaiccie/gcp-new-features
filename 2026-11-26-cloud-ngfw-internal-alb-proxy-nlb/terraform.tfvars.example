@@ -1,0 +1,14 @@
+# Copy this file to terraform.tfvars and set your own Google Cloud project ID.
+# Never commit terraform.tfvars to version control.
+
+project_id = "your-gcp-project-id"
+region     = "us-central1"
+zone       = "us-central1-a"
+
+# Optional overrides:
+# name_prefix                     = "ngfw-ilb-lab"
+# proxy_only_cidr                 = "10.129.0.0/23"
+# backend_subnet_cidr             = "10.128.10.0/24"
+# client_subnet_cidr              = "10.128.20.0/24"
+# scope_to_single_forwarding_rule = true
+# enable_proxy_nlb                = false
