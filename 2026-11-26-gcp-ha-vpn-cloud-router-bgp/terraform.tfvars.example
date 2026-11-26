@@ -1,0 +1,13 @@
+# Copy this file to terraform.tfvars and replace placeholders.
+# NEVER commit terraform.tfvars or real shared secrets to Git!
+
+project_id            = "YOUR_GCP_PROJECT_ID"
+region                = "us-central1"
+name_prefix           = "nt-havpn"
+shared_secret         = "REPLACE_WITH_STRONG_RANDOM_PSK_32_CHARS"
+router_a_asn          = 65001
+router_b_asn          = 65002
+tunnel0_base_priority = 100
+tunnel1_base_priority = 100
+custom_prefix_a       = "10.10.250.0/24"
+custom_prefix_b       = "10.20.250.0/24"
