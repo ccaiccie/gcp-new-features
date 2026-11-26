@@ -1,0 +1,15 @@
+# Replace these placeholder values with your own Google Cloud project IDs.
+# Never commit real project IDs, credentials, or terraform.tfstate files.
+
+producer_project_id       = "my-producer-project-id"
+consumer_project_id       = "my-consumer-project-id"
+region                    = "us-central1"
+zone                      = "us-central1-a"
+connection_preference     = "ACCEPT_MANUAL"
+accept_consumer_project   = true
+reject_consumer_project   = false
+consumer_connection_limit = 2
+reconcile_connections     = true
+enable_proxy_protocol     = false
+service_domain_name       = "us-central1.p.example.internal."
+manual_dns_zone_domain    = "psc-lab.internal."
