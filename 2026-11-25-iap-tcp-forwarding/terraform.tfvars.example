@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars and fill in your values.
+# Never commit terraform.tfvars or state files.
+
+project_id  = "your-gcp-project-id"
+region      = "us-central1"
+zone        = "us-central1-a"
+prefix      = "iap-lab"
+user_member = "user:mike@example.com"
