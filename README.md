@@ -39,3 +39,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-26-gcp-ha-vpn-cloud-router-bgp](./2026-11-26-gcp-ha-vpn-cloud-router-bgp) | Google Cloud HA VPN and Cloud Router BGP | Upload pending |
 | [2026-11-26-cloud-ngfw-url-filtering](./2026-11-26-cloud-ngfw-url-filtering) | Cloud NGFW URL filtering (domain and SNI) | Upload pending |
 | [2026-11-26-cloud-ngfw-internal-alb-proxy-nlb](./2026-11-26-cloud-ngfw-internal-alb-proxy-nlb) | Cloud NGFW protecting internal Application and proxy Network Load Balancers | Upload pending |
+| [2026-11-26-gcp-lb-authz-deny-by-default](./2026-11-26-gcp-lb-authz-deny-by-default) | Cloud Load Balancing DENY_BY_DEFAULT authorization policies | Upload pending |
