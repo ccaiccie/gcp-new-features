@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and set your Google Cloud project ID.
+# terraform.tfvars is excluded by .gitignore.
+
+project_id = "your-gcp-project-id"
+region     = "us-central1"
+zone       = "us-central1-a"
+prefix     = "armor-cel-lab"
