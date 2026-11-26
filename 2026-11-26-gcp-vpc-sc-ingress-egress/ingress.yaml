@@ -1,0 +1,18 @@
+# Ingress rule YAML for gcloud access-context-manager perimeters dry-run update
+# Replace placeholder identity and project number with your disposable test values.
+- title: "allow_operator_ingress_gcs_bq"
+  ingressFrom:
+    identities:
+      - "user:mike@example.com"
+    sources:
+      - accessLevel: "*"
+  ingressTo:
+    resources:
+      - "projects/111111111111"
+    operations:
+      - serviceName: "storage.googleapis.com"
+        methodSelectors:
+          - method: "*"
+      - serviceName: "bigquery.googleapis.com"
+        methodSelectors:
+          - method: "*"

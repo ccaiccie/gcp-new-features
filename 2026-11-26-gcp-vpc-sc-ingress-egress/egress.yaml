@@ -1,0 +1,14 @@
+# Egress rule YAML for gcloud access-context-manager perimeters dry-run update
+# Replace placeholder identity and external project number with your disposable test values.
+- title: "allow_egress_to_external_gcs_project"
+  egressFrom:
+    identities:
+      - "user:mike@example.com"
+  egressTo:
+    resources:
+      - "projects/222222222222"
+    operations:
+      - serviceName: "storage.googleapis.com"
+        methodSelectors:
+          - permission: "storage.objects.get"
+          - permission: "storage.objects.list"
