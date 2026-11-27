@@ -1,0 +1,5 @@
+project_id   = "your-disposable-gcp-project-id"
+region       = "us-central1"
+zone         = "us-central1-a"
+name_prefix  = "nic-lab"
+machine_type = "e2-micro"

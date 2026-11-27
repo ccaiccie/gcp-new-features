@@ -43,3 +43,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-26-gcp-psc-producer-consumer](./2026-11-26-gcp-psc-producer-consumer) | Google Cloud Private Service Connect producer published service to consumer endpoint | Upload pending |
 | [2026-11-26-gcp-vpc-sc-ingress-egress](./2026-11-26-gcp-vpc-sc-ingress-egress) | GCP VPC Service Controls ingress and egress policies, dry-run mode, and Violation Analyzer | Upload pending |
 | [2026-11-26-gcp-certificate-manager-maps](./2026-11-26-gcp-certificate-manager-maps) | Google Cloud Certificate Manager and certificate maps on Application Load Balancers | Upload pending |
+| [2026-11-26-gcp-nic-firewall-insights-network-analyzer](./2026-11-26-gcp-nic-firewall-insights-network-analyzer) | Google Cloud Network Intelligence Center Firewall Insights and Network Analyzer | Upload pending |
