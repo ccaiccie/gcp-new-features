@@ -1,0 +1,13 @@
+# Copy this file to terraform.tfvars and replace the placeholder values with your own.
+# Never commit terraform.tfvars or state files to source control.
+
+project_id             = "your-gcp-project-id"
+region                 = "us-central1"
+name_prefix            = "cm-lab"
+domain_name            = "app.example.com"
+dns_authorization_type = "FIXED_RECORD"
+
+# Optional: set to true and provide your existing Cloud DNS public managed zone name
+# to let Terraform automatically create the DNS authorization CNAME record.
+create_cloud_dns_record = false
+cloud_dns_managed_zone  = ""
